@@ -213,3 +213,169 @@ INSERT INTO variant_attributes (variant_id, attribute_value_id) VALUES
 (50, 48), (50, 51), (50, 15),  -- Maple, Standard, Medium
 (51, 49), (51, 52), (51, 15),  -- Walnut, Thick, Medium
 (52, 49), (52, 52), (52, 16);  -- Walnut, Thick, Large
+
+
+-- Insert placeholder images for all variants
+INSERT INTO variant_images (variant_id, image_url, image_type, display_order, alt_text) VALUES 
+-- Chocolate variants (1-10)
+(1, 'https://picsum.photos/800/800?random=1', 'main', 0, 'Pumpkin Spice Chocolate - 2 oz'),
+(1, 'https://picsum.photos/800/800?random=2', 'gallery', 1, 'Pumpkin Spice Chocolate packaging'),
+(1, 'https://picsum.photos/800/800?random=3', 'gallery', 2, 'Pumpkin Spice Chocolate ingredients'),
+
+(2, 'https://picsum.photos/800/800?random=4', 'main', 0, 'Pumpkin Spice Chocolate - 8 oz'),
+(2, 'https://picsum.photos/800/800?random=5', 'gallery', 1, 'Pumpkin Spice Chocolate - 8 oz side view'),
+
+(3, 'https://picsum.photos/800/800?random=6', 'main', 0, 'Pumpkin Spice Chocolate - 12 oz'),
+(3, 'https://picsum.photos/800/800?random=7', 'gallery', 1, 'Pumpkin Spice Chocolate - 12 oz opened'),
+
+(4, 'https://picsum.photos/800/800?random=8', 'main', 0, 'Dark Chocolate - 2 oz'),
+(4, 'https://picsum.photos/800/800?random=9', 'gallery', 1, 'Dark Chocolate texture'),
+
+(5, 'https://picsum.photos/800/800?random=10', 'main', 0, 'Dark Chocolate - 8 oz'),
+(5, 'https://picsum.photos/800/800?random=11', 'gallery', 1, 'Dark Chocolate - 8 oz packaging'),
+
+(6, 'https://picsum.photos/800/800?random=12', 'main', 0, 'Dark Chocolate - 12 oz'),
+(6, 'https://picsum.photos/800/800?random=13', 'gallery', 1, 'Dark Chocolate - 12 oz gift box'),
+
+(7, 'https://picsum.photos/800/800?random=14', 'main', 0, 'Milk Chocolate - 2 oz'),
+(7, 'https://picsum.photos/800/800?random=15', 'gallery', 1, 'Milk Chocolate - 2 oz unwrapped'),
+
+(8, 'https://picsum.photos/800/800?random=16', 'main', 0, 'Milk Chocolate - 8 oz'),
+(8, 'https://picsum.photos/800/800?random=17', 'gallery', 1, 'Milk Chocolate - 8 oz pieces'),
+
+(9, 'https://picsum.photos/800/800?random=18', 'main', 0, 'Sea Salt Chocolate - 2 oz'),
+(9, 'https://picsum.photos/800/800?random=19', 'gallery', 1, 'Sea Salt Chocolate closeup'),
+
+(10, 'https://picsum.photos/800/800?random=20', 'main', 0, 'Sea Salt Chocolate - 8 oz'),
+(10, 'https://picsum.photos/800/800?random=21', 'gallery', 1, 'Sea Salt Chocolate - 8 oz packaging'),
+
+-- Coffee variants (11-22)
+(11, 'https://picsum.photos/800/800?random=22', 'main', 0, 'Light Roast Coffee - 8 oz'),
+(11, 'https://picsum.photos/800/800?random=23', 'gallery', 1, 'Light Roast Coffee beans'),
+
+(12, 'https://picsum.photos/800/800?random=24', 'main', 0, 'Light Roast Coffee - 12 oz'),
+(12, 'https://picsum.photos/800/800?random=25', 'gallery', 1, 'Light Roast Coffee - 12 oz bag'),
+
+(13, 'https://picsum.photos/800/800?random=26', 'main', 0, 'Light Roast Coffee - 16 oz'),
+(13, 'https://picsum.photos/800/800?random=27', 'gallery', 1, 'Light Roast Coffee - 16 oz packaging'),
+
+(14, 'https://picsum.photos/800/800?random=28', 'main', 0, 'Medium Roast Coffee - 8 oz'),
+(14, 'https://picsum.photos/800/800?random=29', 'gallery', 1, 'Medium Roast Coffee beans'),
+
+(15, 'https://picsum.photos/800/800?random=30', 'main', 0, 'Medium Roast Coffee - 12 oz'),
+(15, 'https://picsum.photos/800/800?random=31', 'gallery', 1, 'Medium Roast Coffee - 12 oz bag'),
+
+(16, 'https://picsum.photos/800/800?random=32', 'main', 0, 'Medium Roast Coffee - 16 oz'),
+(16, 'https://picsum.photos/800/800?random=33', 'gallery', 1, 'Medium Roast Coffee - 16 oz packaging'),
+
+(17, 'https://picsum.photos/800/800?random=34', 'main', 0, 'Dark Roast Coffee - 8 oz'),
+(17, 'https://picsum.photos/800/800?random=35', 'gallery', 1, 'Dark Roast Coffee beans'),
+
+(18, 'https://picsum.photos/800/800?random=36', 'main', 0, 'Dark Roast Coffee - 12 oz'),
+(18, 'https://picsum.photos/800/800?random=37', 'gallery', 1, 'Dark Roast Coffee - 12 oz bag'),
+
+(19, 'https://picsum.photos/800/800?random=38', 'main', 0, 'Dark Roast Coffee - 16 oz'),
+(19, 'https://picsum.photos/800/800?random=39', 'gallery', 1, 'Dark Roast Coffee - 16 oz packaging'),
+
+(20, 'https://picsum.photos/800/800?random=40', 'main', 0, 'Espresso Coffee - 8 oz'),
+(20, 'https://picsum.photos/800/800?random=41', 'gallery', 1, 'Espresso Coffee fine grind'),
+
+(21, 'https://picsum.photos/800/800?random=42', 'main', 0, 'Espresso Coffee - 12 oz'),
+(21, 'https://picsum.photos/800/800?random=43', 'gallery', 1, 'Espresso Coffee - 12 oz bag'),
+
+(22, 'https://picsum.photos/800/800?random=44', 'main', 0, 'Espresso Coffee - 16 oz'),
+(22, 'https://picsum.photos/800/800?random=45', 'gallery', 1, 'Espresso Coffee - 16 oz packaging'),
+
+-- Tea variants (23-30)
+(23, 'https://picsum.photos/800/800?random=46', 'main', 0, 'Green Tea - 1 oz'),
+(23, 'https://picsum.photos/800/800?random=47', 'gallery', 1, 'Green Tea leaves'),
+
+(24, 'https://picsum.photos/800/800?random=48', 'main', 0, 'Green Tea - 3 oz'),
+(24, 'https://picsum.photos/800/800?random=49', 'gallery', 1, 'Green Tea - 3 oz tin'),
+
+(25, 'https://picsum.photos/800/800?random=50', 'main', 0, 'Black Tea - 1 oz'),
+(25, 'https://picsum.photos/800/800?random=51', 'gallery', 1, 'Black Tea leaves'),
+
+(26, 'https://picsum.photos/800/800?random=52', 'main', 0, 'Black Tea - 3 oz'),
+(26, 'https://picsum.photos/800/800?random=53', 'gallery', 1, 'Black Tea - 3 oz packaging'),
+
+(27, 'https://picsum.photos/800/800?random=54', 'main', 0, 'Herbal Tea - 1 oz'),
+(27, 'https://picsum.photos/800/800?random=55', 'gallery', 1, 'Herbal Tea blend'),
+
+(28, 'https://picsum.photos/800/800?random=56', 'main', 0, 'Herbal Tea - 3 oz'),
+(28, 'https://picsum.photos/800/800?random=57', 'gallery', 1, 'Herbal Tea - 3 oz container'),
+
+(29, 'https://picsum.photos/800/800?random=58', 'main', 0, 'Oolong Tea - 1 oz'),
+(29, 'https://picsum.photos/800/800?random=59', 'gallery', 1, 'Oolong Tea leaves'),
+
+(30, 'https://picsum.photos/800/800?random=60', 'main', 0, 'Oolong Tea - 3 oz'),
+(30, 'https://picsum.photos/800/800?random=61', 'gallery', 1, 'Oolong Tea - 3 oz packaging'),
+
+-- Soap variants (31-38)
+(31, 'https://picsum.photos/800/800?random=62', 'main', 0, 'Lavender Soap - Single'),
+(31, 'https://picsum.photos/800/800?random=63', 'gallery', 1, 'Lavender Soap unwrapped'),
+
+(32, 'https://picsum.photos/800/800?random=64', 'main', 0, 'Lavender Soap - 3-pack'),
+(32, 'https://picsum.photos/800/800?random=65', 'gallery', 1, 'Lavender Soap - 3-pack display'),
+
+(33, 'https://picsum.photos/800/800?random=66', 'main', 0, 'Eucalyptus Soap - Single'),
+(33, 'https://picsum.photos/800/800?random=67', 'gallery', 1, 'Eucalyptus Soap texture'),
+
+(34, 'https://picsum.photos/800/800?random=68', 'main', 0, 'Eucalyptus Soap - 3-pack'),
+(34, 'https://picsum.photos/800/800?random=69', 'gallery', 1, 'Eucalyptus Soap - 3-pack gift box'),
+
+(35, 'https://picsum.photos/800/800?random=70', 'main', 0, 'Citrus Soap - Single'),
+(35, 'https://picsum.photos/800/800?random=71', 'gallery', 1, 'Citrus Soap fresh'),
+
+(36, 'https://picsum.photos/800/800?random=72', 'main', 0, 'Citrus Soap - 3-pack'),
+(36, 'https://picsum.photos/800/800?random=73', 'gallery', 1, 'Citrus Soap - 3-pack arrangement'),
+
+(37, 'https://picsum.photos/800/800?random=74', 'main', 0, 'Unscented Soap - Single'),
+(37, 'https://picsum.photos/800/800?random=75', 'gallery', 1, 'Unscented Soap pure'),
+
+(38, 'https://picsum.photos/800/800?random=76', 'main', 0, 'Unscented Soap - 3-pack'),
+(38, 'https://picsum.photos/800/800?random=77', 'gallery', 1, 'Unscented Soap - 3-pack simple'),
+
+-- Mug variants (39-46)
+(39, 'https://picsum.photos/800/800?random=78', 'main', 0, 'White Ceramic Mug - 12 oz'),
+(39, 'https://picsum.photos/800/800?random=79', 'gallery', 1, 'White Mug side view'),
+
+(40, 'https://picsum.photos/800/800?random=80', 'main', 0, 'White Ceramic Mug - 16 oz'),
+(40, 'https://picsum.photos/800/800?random=81', 'gallery', 1, 'White Mug - 16 oz with handle'),
+
+(41, 'https://picsum.photos/800/800?random=82', 'main', 0, 'Black Ceramic Mug - 12 oz'),
+(41, 'https://picsum.photos/800/800?random=83', 'gallery', 1, 'Black Mug side view'),
+
+(42, 'https://picsum.photos/800/800?random=84', 'main', 0, 'Black Ceramic Mug - 16 oz'),
+(42, 'https://picsum.photos/800/800?random=85', 'gallery', 1, 'Black Mug - 16 oz with coffee'),
+
+(43, 'https://picsum.photos/800/800?random=86', 'main', 0, 'Blue Ergonomic Mug - 16 oz'),
+(43, 'https://picsum.photos/800/800?random=87', 'gallery', 1, 'Blue Mug ergonomic handle'),
+
+(44, 'https://picsum.photos/800/800?random=88', 'main', 0, 'Blue Ergonomic Mug - 20 oz'),
+(44, 'https://picsum.photos/800/800?random=89', 'gallery', 1, 'Blue Mug - 20 oz large'),
+
+(45, 'https://picsum.photos/800/800?random=90', 'main', 0, 'Red Wooden Handle Mug - 16 oz'),
+(45, 'https://picsum.photos/800/800?random=91', 'gallery', 1, 'Red Mug wooden handle detail'),
+
+(46, 'https://picsum.photos/800/800?random=92', 'main', 0, 'Red Wooden Handle Mug - 20 oz'),
+(46, 'https://picsum.photos/800/800?random=93', 'gallery', 1, 'Red Mug - 20 oz with tea'),
+
+-- Cutting Board variants (47-52)
+(47, 'https://picsum.photos/800/800?random=94', 'main', 0, 'Bamboo Cutting Board - Small'),
+(47, 'https://picsum.photos/800/800?random=95', 'gallery', 1, 'Bamboo Board grain detail'),
+
+(48, 'https://picsum.photos/800/800?random=96', 'main', 0, 'Bamboo Cutting Board - Medium'),
+(48, 'https://picsum.photos/800/800?random=97', 'gallery', 1, 'Bamboo Board - Medium size'),
+
+(49, 'https://picsum.photos/800/800?random=98', 'main', 0, 'Maple Cutting Board - Small'),
+(49, 'https://picsum.photos/800/800?random=99', 'gallery', 1, 'Maple Board wood grain'),
+
+(50, 'https://picsum.photos/800/800?random=100', 'main', 0, 'Maple Cutting Board - Medium'),
+(50, 'https://picsum.photos/800/800?random=101', 'gallery', 1, 'Maple Board - Medium with utensils'),
+
+(51, 'https://picsum.photos/800/800?random=102', 'main', 0, 'Walnut Cutting Board - Medium'),
+(51, 'https://picsum.photos/800/800?random=103', 'gallery', 1, 'Walnut Board rich color'),
+
+(52, 'https://picsum.photos/800/800?random=104', 'main', 0, 'Walnut Cutting Board - Large'),
+(52, 'https://picsum.photos/800/800?random=105', 'gallery', 1, 'Walnut Board - Large premium');

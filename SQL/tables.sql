@@ -50,3 +50,16 @@ CREATE TABLE attribute_price_adjustments (
     adjustment_type VARCHAR(10) DEFAULT 'fixed', -- 'fixed' or 'percentage'
     UNIQUE(product_id, attribute_value_id)
 );
+
+CREATE TABLE variant_images (
+    id SERIAL PRIMARY KEY,
+    variant_id INTEGER REFERENCES product_variants(id) ON DELETE CASCADE,
+    image_url TEXT NOT NULL,
+    image_type VARCHAR(50) DEFAULT 'main', -- 'main', 'thumbnail', 'gallery'
+    display_order INTEGER DEFAULT 0,
+    alt_text VARCHAR(255),
+    created_at TIMESTAMP DEFAULT NOW()
+);
+
+CREATE INDEX idx_variant_images_variant_id ON variant_images(variant_id);
+CREATE INDEX idx_variant_images_display_order ON variant_images(variant_id, display_order);
